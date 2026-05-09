@@ -1,0 +1,28 @@
+{
+  "id": "wf_1778147849084",
+  "name": "TimeManager",
+  "description": "",
+  "steps": [
+    {
+      "id": "s_1778147861583",
+      "kind": "navigate",
+      "value": "https://dayal.esathi.in/eSATHI/TMS/index.php/site/index?key="
+    },
+    {
+      "id": "s_1778148141615",
+      "kind": "wait",
+      "value": "2"
+    },
+    {
+      "id": "s_1778148169517",
+      "kind": "click",
+      "selector": "a[href=\"/eSATHI/TMS/index.php/task/stop?url=%2FeSATHI%2FTMS%2Findex.php%2Fsite%2Findex%3Fkey%3D\u0026id=173401\u0026intUserId=1964\"]"
+    }
+  ],
+  "schedule": {
+    "enabled": false,
+    "intervalSecs": 3600
+  },
+  "createdAt": "2026-05-07T09:57:29.084Z",
+  "updatedAt": "2026-05-07T15:36:48+05:30"
+}
